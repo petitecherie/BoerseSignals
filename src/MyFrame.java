@@ -422,7 +422,7 @@ protected void toLoadQuotes(int numberOfQuotes2) {
 		internalFrameHelp.add(BorderLayout.CENTER, editorSP);
 		internalFrameHelp.setVisible(true);
 
-		String text = "<html>Dies ist ein <b>Hilfetext</b> zur Swing-applikation MyFrame.</html>";
+		String text = "<html>Dies ist ein <b>Hilfetext</b> zur Java for Trading.</html>";
 		JTextPane helpText = new JTextPane();
 		helpText.setContentType("text/html");
 		helpText.setText(text);
@@ -455,9 +455,8 @@ protected void toLoadQuotes(int numberOfQuotes2) {
 		// Text im Fenster "Info"
 		String text = "<html><center><h2> Swing-applikation MyFrame</h2><br />"
 				+ "<b>Autor: </b>Elena Smagina<br />"
-				+ "<b>Version: </b>03.10.2016<br />"
-				+ "<b>Projekt: </b>Lernheft JAV05N<br />"
-				+ "<b>Abschnitt: </b>Einsendeaufgaben</html>";
+				+ 
+				+ "<b>Abschnitt: </b>Java for Trading</html>";
 
 		desktop.add(internalFrameInfo, POPUP_LAYER);
 		internalFrameInfo.setVisible(true);
